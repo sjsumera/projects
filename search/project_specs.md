@@ -12,6 +12,8 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
 
 -The CSS you write should match Google’s own aesthetics as best as possible.
 
+-Add Google Logo
+
 
 # DONE # 
 
