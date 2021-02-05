@@ -7,16 +7,15 @@
 
     </head>
     <body>
-        <div class="nav-menu">
-            <ul> 
-                <li><a href="index.html">Simple Search</a></li>
-                <li><a class="active" href="image.html">Image Search</a></li>
-                <li><a href="advanced.html">Advanced Search</a></li>
-            </ul>            
-        </div>
-        <div class="search-form row align-items-center">   
-             
-            <form action="https://google.com/images">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <a class="navbar-brand me-auto" href="index.html">Search</a>
+            <a class="nav-item nav-link" href="index.html">Simple Search</a>
+            <a class="nav-item nav-link active" href="image.html">Image Search</a>
+            <a class="nav-item nav-link" href="advanced.html">Advanced Search</a>
+        </nav>
+        <div class="search-container">
+            <h1>Image Search</h1>
+            <form class="search-form" action="https://google.com/images">
                 <input type="text" name="q">
                 <input type="submit" value="Image Search">
             </form>
