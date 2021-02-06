@@ -4,7 +4,7 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
 
 ## On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
 
-## Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
+
 
 ## Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
 ---Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
@@ -34,4 +34,5 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
     
     #### You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
 
+## Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
 
