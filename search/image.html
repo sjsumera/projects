@@ -7,19 +7,28 @@
 
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand me-auto" href="index.html">Search</a>
-            <a class="nav-item nav-link" href="index.html">Simple Search</a>
-            <a class="nav-item nav-link active" href="image.html">Image Search</a>
-            <a class="nav-item nav-link" href="advanced.html">Advanced Search</a>
-        </nav>
-        <div class="search-container">
-            <h1>Image Search</h1>
-            <form class="search-form" action="https://google.com/images">
-                <input type="text" name="q">
-                <input type="submit" value="Image Search">
-            </form>
-        </div>     
+        <div class="container">
+            <header>
+                <nav class="navbar fixed-top navbar-light ">
+                    <a class="navbar-brand me-auto" href="index.html">Search</a>
+                    <a class="nav-item nav-link" href="index.html">Google Search</a>
+                    <a class="nav-item nav-link active" href="image.html">Image Search</a>
+                    <a class="nav-item nav-link" href="advanced.html">Advanced Search</a>
+                </nav>
+            </header>
+            <div class="logo-container">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            <div class="images-txt">Images</div>
+            <div class="search-container"> 
+                <form class="search-form" action="https://google.com/images">
+                    <input type="text" size="50" class="round-entry" placeholder=" Enter Search Term" name="q">
+                    <div class="submit">
+                        <input type="submit" class="search-btn" value="Image Search"> 
+                    </div>          
+                </form>
+            </div> 
+        </div>   
     </body>
 </html>
 

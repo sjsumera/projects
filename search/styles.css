@@ -1,26 +1,17 @@
-body {
-    font-family: serif;
-}
 
 .container {
     height: 100%;
     display: grid;
 }
 
-.nav-menu {
-    float: right; 
-    margin: 30px;
-    padding: 30px;
-}
-
-.nav-menu ul li{
-    display: inline-block;
+.navbar-brand {
+    padding: 10px;
 }
 
 nav > a {
     color: black;
     font-size: 13px;
-    font: Roboto,RobotoDraft,Arial,sans-serif;
+    font-family: Roboto,RobotoDraft,Arial,sans-serif;
 }
 
 nav > a:hover {
@@ -36,7 +27,6 @@ nav > a:hover {
 .submit {
     display: inline-block;
 }
-
 
 .round-entry {
     border-radius: 30px;
@@ -83,10 +73,10 @@ img {
     width: 272px;
 }
 
+body > .container > .images-txt {
+    color: #4285f4;
+}
+
 .main-head {
     text-align: center;
 }
-
-/*
-</div>
-            */
