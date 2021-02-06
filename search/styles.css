@@ -17,6 +17,16 @@ body {
     place-items: center;
 }
 
+nav > a {
+    color: black;
+    font: Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 .adv-entry {
     display: block;
     margin: 25px;
@@ -32,7 +42,7 @@ body {
 
 .round-entry {
     border-radius: 30px;
-    border: 1px solid #ECECEC;
+    border: .5px solid #ECECEC;
     padding: 5px;
 }
 
@@ -41,7 +51,20 @@ body {
 }
 
 .search-btn {
-    margin: 20px;
+    margin: 30px;
+}
+
+.logo-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+}
+
+img {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
 }
 
 .main-head {
