@@ -73,8 +73,12 @@ img {
     width: 272px;
 }
 
-body > .container > .images-txt {
+.images-txt {
     color: #4285f4;
+    position: relative;
+    left: 106px;
+    bottom: 20px;
+    white-space: nowrap;
 }
 
 .main-head {
