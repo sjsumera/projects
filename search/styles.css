@@ -6,7 +6,7 @@
 }
 
 .navbar-brand {
-    padding: 10px;
+    padding: 15px;
 }
 
 nav > a {
@@ -18,11 +18,6 @@ nav > a {
 nav > a:hover {
     text-decoration: underline;
     color: black;
-}
-
-.adv-entry {
-    display: block;
-    margin: 25px;
 }
 
 .submit {
@@ -57,14 +52,12 @@ nav > a:hover {
 
 .logo-container {
     margin-top: 30%;
-    padding-bottom: 8px;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 8px; 
 }
 
-.search-container .search-form {
+.search-container, .search-form, .logo-container {
+    align-items: center;
+    justify-content: center;
     display: grid;
     place-items: center;
 }
@@ -87,17 +80,24 @@ img {
     text-align: center;
 }
 
-.adv-label {
-    text-align: left;
-}
-
 .find-pages {
     text-align: left;
-    margin-left: 20px;
 }
 
-.search-container-adv > .find-pages{
-    margin-top: 40px;
+.search-container-adv {
+    margin-left: 40px; 
+}
+
+.search-container-adv > .find-pages {
+    margin-top: 30px;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
 }
 
 .adv-header {
@@ -109,10 +109,51 @@ img {
     border-bottom: 1px solid #dfe1e5;
 }
 
+.adv-header > span {
+    margin-left: 25px;
+}
+
 .adv-label { 
     font-size: 13px;
+    text-align: left; 
+    display: inline-block;
+    min-width: 167px;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
 }
 
 .adv-input {
-    margin-left: 40px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    outline: none;
 }
+
+.adv-btn {
+    padding: 8px;
+    margin: 30px;
+    border-radius: 4px;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 430px;
+}
+
+.adv-btn:hover {
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top, #4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+}
+
+
+

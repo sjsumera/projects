@@ -2,8 +2,6 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
 
 # In Progress # 
 
-## On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
-
 
 
 ## Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
@@ -11,8 +9,6 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
 ---DONE---When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
 
 -The CSS you write should match Google’s own aesthetics as best as possible.
-
--Add Google Logo
 
 
 # DONE # 
@@ -36,3 +32,6 @@ https://cs50.harvard.edu/extension/web/2021/spring/projects/0/search/
 
 ## Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
 
+## On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
+
+## Add Google Logo

@@ -1,6 +1,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="styles.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -21,25 +22,25 @@
             <div class="find-pages">
                 <span>Find pages with...</span>
             </div>  
-            <form class="search-form" action="https://www.google.com/search">
+            <form class="adv-search-form" action="https://www.google.com/search">
                 <div class="adv-entry"> 
                     <label class="adv-label" for="allwords">all of these words:</label>
-                    <input type="text" class="adv-input" placeholder="include all these words" id="allwords" name="as_q">
+                    <input type="text" size="50" class="adv-input" id="allwords" name="as_q">
                 </div>
                 <div class="adv-entry"> 
                     <label class="adv-label" for="exact-phrase">this exact word or phrase:</label>
-                    <input type="text" class="adv-input" placeholder="include this exact phrase" id="exact-phrase" name="as_epq">
+                    <input type="text" size="50" class="adv-input" id="exact-phrase" name="as_epq">
                 </div>
                 <div class="adv-entry"> 
                     <label class="adv-label" for="any-phrase">any of these words:</label>
-                    <input type="text" placeholder="include any of these words" id="any-phrase" name="as_oq">
+                    <input type="text" size="50" class="adv-input" id="any-phrase" name="as_oq">
                 </div>
                 <div class="adv-entry">
                     <label class="adv-label" for="none-words">none of these words:</label>    
-                    <input type="text" placeholder="include none of these words" id="none-words" name="as_eq">             
+                    <input type="text" size="50" class="adv-input" id="none-words" name="as_eq">             
                 </div>
                               
-                <input class="search-btn adv-btn" type="submit" value="Advanced Search">
+                <input class="adv-btn" type="submit" value="Advanced Search">
             </form>
         </div>     
     </body>
