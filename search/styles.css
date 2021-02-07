@@ -9,6 +9,20 @@
     padding: 15px;
 }
 
+footer {
+    background-color: #F2F2F2;
+}
+
+footer > .nav-item {
+    color: #70757a;
+    margin: auto;
+}
+
+footer > .nav-item:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
+
 nav > a {
     color: black;
     font-size: 13px;
