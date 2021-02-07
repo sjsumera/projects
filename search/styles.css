@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container {
     height: 100%;
@@ -33,6 +34,7 @@ nav > a:hover {
     border: 1px solid #dfe1e5;
     padding: 5px;
     outline: none;
+    padding-left: 20px;
 }
 
 .round-entry:hover {
@@ -83,4 +85,34 @@ img {
 
 .main-head {
     text-align: center;
+}
+
+.adv-label {
+    text-align: left;
+}
+
+.find-pages {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.search-container-adv > .find-pages{
+    margin-top: 40px;
+}
+
+.adv-header {
+    color: #d93025;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.adv-label { 
+    font-size: 13px;
+}
+
+.adv-input {
+    margin-left: 40px;
 }

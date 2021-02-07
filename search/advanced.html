@@ -7,33 +7,39 @@
     </head>
     <body>
         <header>
-            <nav class="navbar fixed-top navbar-light ">
+            <nav class="navbar fixed-top navbar-light bg-light">
                 <a class="navbar-brand me-auto" href="index.html">Search</a>
                 <a class="nav-item nav-link" href="index.html">Google Search</a>
                 <a class="nav-item nav-link" href="image.html">Image Search</a>
                 <a class="nav-item nav-link active" href="advanced.html">Advanced Search</a>
             </nav>
         </header>
-        <div class="search-container-adv">    
+        <div class="adv-header"> 
+            <span>Advanced Search</span>
+        </div>
+        <div class="search-container-adv"> 
+            <div class="find-pages">
+                <span>Find pages with...</span>
+            </div>  
             <form class="search-form" action="https://www.google.com/search">
                 <div class="adv-entry"> 
-                    Include all of these words: 
-                    <input type="text" placeholder="include all these words" name="as_q">
+                    <label class="adv-label" for="allwords">all of these words:</label>
+                    <input type="text" class="adv-input" placeholder="include all these words" id="allwords" name="as_q">
                 </div>
                 <div class="adv-entry"> 
-                    Include this exact phrase:
-                    <input type="text" placeholder="include this exact phrase" name="as_epq">
+                    <label class="adv-label" for="exact-phrase">this exact word or phrase:</label>
+                    <input type="text" class="adv-input" placeholder="include this exact phrase" id="exact-phrase" name="as_epq">
                 </div>
                 <div class="adv-entry"> 
-                    Include all of these words:   
-                    <input type="text" placeholder="include any of these words" name="as_oq">
+                    <label class="adv-label" for="any-phrase">any of these words:</label>
+                    <input type="text" placeholder="include any of these words" id="any-phrase" name="as_oq">
                 </div>
                 <div class="adv-entry">
-                    Include none of these words:    
-                    <input type="text" placeholder="include none of these words" name="as_eq">             
+                    <label class="adv-label" for="none-words">none of these words:</label>    
+                    <input type="text" placeholder="include none of these words" id="none-words" name="as_eq">             
                 </div>
                               
-                <input type="submit" value="Advanced Search">
+                <input class="search-btn adv-btn" type="submit" value="Advanced Search">
             </form>
         </div>     
     </body>
